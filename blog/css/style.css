@@ -146,13 +146,13 @@ time{
         
 }
 .attribution{
-    font-family: josefinslab;
+    font-family: josefinslab, serif;
     font-size: 0.75rem;
     
 }
 
 .copyright{
-    font-family:josefinslab;
+    font-family: josefinslab, serif;
     font-size: 0.75rem;
 }
 /* GENERAL SETUP AND DEFAULTS */
