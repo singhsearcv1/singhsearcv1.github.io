@@ -1,23 +1,124 @@
+/* IMPORTED FONTS */
+
+@font-face {
+    font-family: "lato";
+    src: url('../fonts/sans-serif/lato-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url('../fonts/sans-serif/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url('../fonts/sans-serif/opensans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "josefin";
+    src: url('../fonts/serif/josefinslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "robotslab";
+    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "rozhaone";
+    src: url('../fonts/serif/rozhaone-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "ultra";
+    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+/* TYPOGRAPHY */
+
+p {
+    font-family: roboto, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.0325rem;
+}
+
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+    
+}
+
+/* GENERAL SETUP AND DEFAULTS */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+
+/* LAYOUT */
+
+aside {
+    float: right;
+    padding-left: 0%; 
+}
+
+/*BODY STYLES*/
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
-    color: #333;
+    color: #000000;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #f7df07;
     text-align: center;
     padding: 1em;
 }
-
+/* LINKS AND NAVIGATION */
 nav {
-    background-color: #444;
-    color: #fff;
+    background-color: #460202;
+    color: #ffffff;
     text-align: center;
     padding: 0.5em;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -25,7 +126,7 @@ nav a {
     text-decoration: none;
     margin: 0 1em;
 }
-
+/*MAIN CONTENT STYLES*/
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -33,13 +134,12 @@ main {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 1em;
     background-color: #333;
     color: #fff;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
