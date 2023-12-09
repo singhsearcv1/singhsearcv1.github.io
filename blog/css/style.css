@@ -222,7 +222,7 @@ aside p{
 
 .expand {
     font-size:.25rem; /* Adjust the size value as needed */
-    text-decoration: none; /* Optional: Remove underline from the link */
+    text-decoration:none; /* Optional: Remove underline from the link */
     color: #000; /* Optional: Set the color for the link */
 }
 /* IMAGES AND FIGURES */
